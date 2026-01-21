@@ -4,3 +4,7 @@ body {
   background-color: rgb(244, 246, 245);
   margin: 0;
 }
+
+html{
+  scroll-behavior: smooth;
+}

@@ -21,9 +21,9 @@ const StyledLink = styled.a`
 const Navbar = () => {
     return (
         <StyledNavbar>
-            <StyledLink href="/">Home</StyledLink>
+            <StyledLink href="#hero">Home</StyledLink>
             <StyledLink href="#about">About</StyledLink>
-            <StyledLink href="/">Services</StyledLink>
+            <StyledLink href="#services">Services</StyledLink>
 
         </StyledNavbar>
     );

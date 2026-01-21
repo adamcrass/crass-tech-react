@@ -8,7 +8,9 @@ const StyledHero = styled.div`
 
 const Hero = () => {
     return(
-        <StyledHero></StyledHero>
+        <StyledHero id="hero">
+
+        </StyledHero>
     );
 };
 
