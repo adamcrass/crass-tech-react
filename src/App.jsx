@@ -1,19 +1,13 @@
 import './App.css'
 import Navbar from './Components/Navbar'
-import About from './Components/About'
-import Services from './Components/Services'
-import Hero from "./Components/Hero"
-import Footer from "./Components/Footer"
+import RightSide from './Components/RightSide'
 
 function App() {
   
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Footer />
+      <RightSide />
     </>
   )
 };

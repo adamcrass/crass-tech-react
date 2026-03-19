@@ -2,8 +2,10 @@ import styled from "@emotion/styled"
 
 const StyledServices = styled.div`
     width: 100%;
-    height: 50vh;
-    color: #28a34d;
+    height: 75vh;
+    color: Black;
+    background-color: grey;
+    color: black;
 `;
 
 const Services = () => {

@@ -1,14 +1,16 @@
 import styled from "@emotion/styled"
 
 const StyledFooter = styled.div`
-    width: 100%;
-    height: 60px;
-    background-color: #aca8a8;
+    width: 100%
+    height: 75vh;
+    background-color: orange;
 `;
 
 const Footer = () => {
     return(
-        <StyledFooter></StyledFooter>
+        <StyledFooter id="footer">
+
+        </StyledFooter>
     );
 };
 
