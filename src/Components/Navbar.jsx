@@ -38,9 +38,12 @@ const Navbar = () => {
         <StyledNavbar>
 
             <StyledLinkContainer>
-                <StyledLogo src={Logo} />
-            <StyledLink href="#about">About</StyledLink>
-            <StyledLink href="#services">Services</StyledLink>
+                <StyledLink href="#hero">
+                    <StyledLogo src={Logo} />
+                </StyledLink>
+                <StyledLink href="#about">About</StyledLink>
+                <StyledLink href="#services">Services</StyledLink>
+                <StyledLink href="#contact">Contact</StyledLink>
             </StyledLinkContainer>
         </StyledNavbar>
     )

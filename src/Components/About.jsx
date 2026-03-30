@@ -2,8 +2,8 @@ import styled from "@emotion/styled";
 
 const StyledAbout = styled.div`
     width: 100%;
-    height: 75vh;
-    background-color: #f0f0f0;
+    height: 100vh;
+    background-color: #79c779;
     color: black;
     display: flex;
     justify-content: center;

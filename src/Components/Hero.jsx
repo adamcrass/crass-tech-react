@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
 
-const StyledContact = styled.div`
+const StyledHero = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #79c779;
+    background-color: #ffffff;
     color: black;
     display: flex;
     justify-content: center;
@@ -29,16 +29,16 @@ const TextContainer = styled.div`
     margin-right: 1vw;
 `;
 
-const Contact = () => {
+const Hero = () => {
 
     return(
-        <StyledContact id="contact">
+        <StyledHero id="hero">
             <TextContainer>
-                <Title>Contact</Title>
-                <Text> This is the section about all of our contact information. Might delete later and put it in the footer.</Text>
+            <Title>Hero</Title>
+            <Text>NOT ACTUAL TEXT JUST FOR FILLER</Text>
             </TextContainer>
-        </StyledContact>
+        </StyledHero>
     );
 };
 
-export default Contact;
+export default Hero;
