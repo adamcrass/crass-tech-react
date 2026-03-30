@@ -14,4 +14,19 @@
 body {
   height: 0;
   margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/Lato/Lato-Regular.ttf")
+  format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("./assets/Lato/Lato-Bold.ttf")
+  format("truetype");
+  font-weight: 700;
 }
